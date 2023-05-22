@@ -24,6 +24,7 @@ const Intro = () => {
             placeholder="What is your name?"
             required
           />
+          <input type="hidden" name="_action" value="newUser" />
           <button className="btn btn--dark">
             <span>Create Account</span>
             <UserPlusIcon width={20} />
