@@ -31,7 +31,7 @@ export async function dashboardAction({ request }) {
       throw new Error('There was a problem creating your account.');
     }
   }
-  //new budget submission
+  //new budget  submission
   if (_action === 'createBudget') {
     try {
       createBudget({ name: values.newBudget, amount: values.newBudgetAmount });
