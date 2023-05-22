@@ -4,6 +4,7 @@
 
 React Budget App uses the new features provided by React Router v6 to provide client side routing.
 Instead of connecting to a actual database, it uses your browser's local storage to store your data.
+
 **Technologies:** HTML, CSS, Vite, ECMAScript, Git, React, JavaScript, JSX, React Router, GitHub
 
 ## React Router Info
@@ -25,4 +26,5 @@ If you're not familiarized with React Router v6, you can check the [documentatio
 ## Links
 
 - [Check Project Live ](https://fm-anderson-budgetapp.netlify.app/)
+
   **Created By [Anderson M.](https://github.com/fm-anderson)**
