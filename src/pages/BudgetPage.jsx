@@ -1,18 +1,12 @@
-// rrd imports
 import { useLoaderData } from 'react-router-dom';
-
-// library
 import { toast } from 'react-toastify';
+import { createExpense, deleteItem, getAllMatchingItems } from '../helpers';
 
-// components
+// Components
 import AddExpenseForm from '../components/AddExpenseForm';
 import BudgetItem from '../components/BudgetItem';
 import Table from '../components/Table';
 
-// helpers
-import { createExpense, deleteItem, getAllMatchingItems } from '../helpers';
-
-// loader
 export async function budgetLoader({ params }) {
   const budget = await getAllMatchingItems({
     category: 'budgets',
@@ -33,7 +27,6 @@ export async function budgetLoader({ params }) {
   return { budget, expenses };
 }
 
-// action
 export async function budgetAction({ request }) {
   const data = await request.formData();
   const { _action, ...values } = Object.fromEntries(data);

@@ -1,4 +1,3 @@
-// helper functions
 import { Form, Link } from 'react-router-dom';
 import {
   calculateSpentByBudget,

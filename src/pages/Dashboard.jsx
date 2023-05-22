@@ -1,17 +1,5 @@
-//rrd imports
 import { Link, useLoaderData } from 'react-router-dom';
-
-//library
 import { toast } from 'react-toastify';
-
-//components
-import Intro from '../components/Intro';
-import AddBudgetForm from '../components/AddBudgetForm';
-import AddExpenseForm from '../components/AddExpenseForm';
-import BudgetItem from '../components/BudgetItem';
-import Table from '../components/Table';
-
-//helper functions
 import {
   createBudget,
   createExpense,
@@ -20,7 +8,13 @@ import {
   waait,
 } from '../helpers';
 
-//loader
+// Components
+import Intro from '../components/Intro';
+import AddBudgetForm from '../components/AddBudgetForm';
+import AddExpenseForm from '../components/AddExpenseForm';
+import BudgetItem from '../components/BudgetItem';
+import Table from '../components/Table';
+
 export function dashboardLoader() {
   const userName = fetchData('userName');
   const budgets = fetchData('budgets');
@@ -28,7 +22,6 @@ export function dashboardLoader() {
   return { userName, budgets, expenses };
 }
 
-//action
 export async function dashboardAction({ request }) {
   //fake a request
   await waait();
@@ -66,7 +59,6 @@ export async function dashboardAction({ request }) {
       throw new Error('There was a problem creating your expense.');
     }
   }
-
   //delete expense
   if (_action === 'deleteExpense') {
     try {
