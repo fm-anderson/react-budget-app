@@ -31,9 +31,12 @@ If you're not familiarized with React Router v6, you can check the [documentatio
 ## Screenshots
 
 Login Page
-![Budget App Intro](https://file.notion.so/f/s/dfb6fb18-c23f-4adc-a0a1-69df12d753af/screencapture-01-intro.png?id=2d519215-af0f-4a06-a2c8-9f6a1bef5f85&table=block&spaceId=073044f3-b5a6-4def-9c6c-7aa8a85e6981&expirationTimestamp=1684946658117&signature=hStp0g3JnBCXtD4fyIidmEGVJn1cKy0QMx5NtG1tpUI&downloadName=screencapture-01-intro.png 'Intro')
+![Budget App Intro](./src/assets/screenshots/dashboard-login.png 'Intro')
 
 Dashboard
-![Budget App Dashboard](https://file.notion.so/f/s/c00424e1-9bd8-43bb-a095-06b1a6c883d0/screencapture-05-dashboard.png?id=3a9fbf48-c646-4118-b592-a51578ffdb92&table=block&spaceId=073044f3-b5a6-4def-9c6c-7aa8a85e6981&expirationTimestamp=1684946669011&signature=y0SmjamYIdjyDGTU_4XN1AOtfx1yKESqoRaH3wdsY4k&downloadName=screencapture-05-dashboard.png 'Dashboard')
+![Budget App Dashboard](./src/assets/screenshots/dashboard-overview.png 'Dashboard')
+
+Budget Page
+![Budget Overview](./src/assets/screenshots/budget-overview.png 'Budget Page')
 
 **Created By [Anderson M.](https://github.com/fm-anderson)**
